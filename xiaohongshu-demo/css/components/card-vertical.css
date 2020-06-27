@@ -10,7 +10,7 @@
 }
 
 .card-vertical .card-info {
-        padding: 30px;
+        /* padding: 30px; */
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
@@ -34,8 +34,8 @@
 }
 
 .avatar {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
@@ -46,6 +46,6 @@
 }
 
 .heart{
-    height: 100px;
+    height: 60px;
 }
 
