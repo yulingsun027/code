@@ -6,12 +6,27 @@
 .container .masonry {
   column-count:2;
   column-gap:1em;
+  margin:1.5em auto;
+  max-width: 900px;
 }
 
 .container .masonry .card-vertical {
   background-color:#eee;
   display:inline-block;
-  /* margin:0 0 1em; */
+  margin:0 0 1.5em;
   width: 100%;
-
+  padding:1em;
 }
+
+
+
+@media only screen and (max-width: 768px)  {
+  .container {
+    padding: 0;
+  }
+
+  .container .masonry {
+    column-count:1;
+  }
+}
+

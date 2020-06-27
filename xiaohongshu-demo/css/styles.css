@@ -5,8 +5,18 @@
 @import url("components/container.css");
 @import url("components/card-vertical.css");
 
-
 /* --- Fonts & colors --- */
+html{
+    box-sizing: border-box;
+  }
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+
 body {
   background-color: rgb(245,245,245);
   font-family: "Open Sans", "Helvetica", "sans-serif";
@@ -21,9 +31,21 @@ p {
   margin-left:20px;
 }
 
-/* .column { */
-  /* display:flex;  */
-  /* align-items: flex-end */
-  /* justify-content: space-between; */
-  
 
+@media only screen and (min-width: 1024px){
+  .masonry {
+    column-count:4
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+  .masonry {
+    column-count:3
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width:540px){
+  .masonry {
+    column-count:2
+  }
+}
