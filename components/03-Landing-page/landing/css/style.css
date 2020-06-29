@@ -5,6 +5,8 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Utilities */
+ 
+
 body {
   margin: 0;
   font-family: Open Sans;
@@ -20,3 +22,36 @@ a {
 
 /* Custom design below! */
 
+.hero {
+  color: white;
+  background-position: center;
+  object-fit: cover;
+  /* text-align: center; */
+  /* display:flex; */
+  padding:200px 0;
+  
+}
+
+.container {
+  /* display:flex; */
+  /* justify-content: space-evenly; */
+  width:900px;
+  margin:auto;
+}
+
+.btn-treehouse {
+  background-color: mediumseagreen;
+  color: white;
+  font-weight:bold;
+  padding: 10px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: 0.3s ease;
+  
+}
+
+.btn-treehouse:hover {
+  background-color: seagreen;
+  
+}
